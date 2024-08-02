@@ -1,0 +1,723 @@
+/* xs */
+@media screen and (min-width: 0px) and (max-width: 600px) {
+
+  .overlay h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 600;
+  }
+
+  .overlay span::after {
+
+    font-size: 1.5rem;
+
+  }
+
+  .navbar .navbar-nav .nav-link {
+    padding: 4px 20px;
+    font-size: 15px;
+    color: #4e4e4e;
+  }
+
+  .navbar .navbar-nav .nav-link:hover,
+  .navbar .navbar-nav .active {
+    color: blue;
+
+  }
+
+  .navbar .navbar-nav .nav-item {
+    background-color: #fff;
+
+  }
+
+  .dropdown-menu>li>.submenu {
+    overflow: scroll;
+
+  }
+
+
+  .dropdown-menu>li:hover>.submenu {
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .about .bg-white {
+    padding: 1rem;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .about h5 {
+    Font-size: 32px;
+    Font-weight: 500;
+    line-height: 38.4px;
+    color: rgb(30, 30, 30);
+  }
+
+  .card-icon {
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    border-radius: 50%;
+    line-height: 1.55;
+    box-shadow: 0 0 0 10px #0078ff;
+    transition: all 1s ease;
+  }
+
+  .card-icon:hover {
+    background-color: #0078ff;
+    color: #fff;
+    box-shadow: 0 0 0 3px #cde1f8;
+
+  }
+
+  .SERVICES .inner {
+    background-color: #fff;
+    padding: .4rem 0;
+    margin-right: 1px;
+    border-radius: 1rem;
+    margin-bottom: 2.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+  .card-body p {
+    color: #4e4e4e;
+  }
+
+  .numbers {
+    background-image: linear-gradient(rgba(0, 120, 255, 0.7),
+        rgba(0, 120, 255, 0.7)), url(../img/counters-bg.jpg);
+    padding: 8rem 0;
+    color: #ffff;
+  }
+
+  .numbers .card-icon {
+    font-size: 32px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 0 10px #cde1f8;
+  }
+
+  .numbers .card-body p {
+    font-size: 2rem;
+    color: #fff;
+  }
+
+  .portofolio .card-block {
+    box-shadow: 0 1px 38px rgba(0, 0, 0, 0.15), 0 5px 12px rgba(0, 0, 0, 0.25);
+  }
+
+  .prtofolio-img {
+    overflow: hidden;
+  }
+
+  .prtofolio-img img {
+    transition: transform 1s ease-in-out;
+  }
+
+  .prtofolio-img:hover img {
+    transform: scale(1.3);
+  }
+
+  .portofolio .body {
+    padding-bottom: 5px;
+  }
+
+  .portofolio h2 {
+    font-size: 1.2rem;
+    color: #1e1e1e;
+  }
+
+
+
+  .portofolio span {
+    font-size: 0.8rem;
+  }
+
+  .portofolio .span-1 {
+    color: #0078ff;
+  }
+
+  .portofolio .span-2 {
+    color: #4e4e4e;
+  }
+
+  .portofolio .row {
+    margin-bottom:20px;
+  }
+
+  .icon-plus {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-right: 30px;
+  }
+
+  .parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 3px solid #0078ff;
+  }
+
+  .portofolio i {
+    text-align: center;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: #0078ff;
+  }
+
+  .portofolio .left {
+    padding-top: 50px;
+  }
+
+  .portofolio .col-sm-4 {
+    text-align: end;
+    margin-bottom: 50px;
+  }
+
+  .carsoul p {
+  
+    padding: 0;
+}
+  .small-div .h3-card {
+    background-color: #0078ff;
+    border-radius: 4px;
+    top: 94%;
+    left: 40%
+  }
+
+  .blog .card-body h5 {
+    font-size: 1.3rem;
+    margin-top: 0.6rem;
+  }
+
+  .img-footer img {
+    width: 32px;
+    height: 32px;
+    margin-right: 4px;
+  }
+
+  .card-footer .time {
+    color: #4e4e4e;
+    display: inline-block;
+  }
+
+ 
+
+  .txt-left {
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  .txt-left::after {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    content: "";
+    width: 80px;
+    background-color: #0062d3;
+    height: 3px;
+  }
+
+  .button-rouded {
+    display: inline;
+    margin-top: 30px;
+    border: 0;
+    background-color: #0078ff;
+    padding: 0.5rem 1.5rem;
+    color: #fff;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+ 
+
+}
+
+/*---------------------------------*/
+/* sm */
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+
+  .overlay h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 600;
+  }
+
+  .overlay span::after {
+
+    font-size: 1.5rem;
+
+  }
+
+  .navbar .navbar-nav .nav-link {
+    padding: 4px 20px;
+    font-size: 15px;
+    color: #4e4e4e;
+  }
+
+  .navbar .navbar-nav .nav-link:hover,
+  .navbar .navbar-nav .active {
+    color: blue;
+
+  }
+
+  .navbar .navbar-nav .nav-item {
+    background-color: #fff;
+
+  }
+
+  .dropdown-menu .submenu {
+    overflow: scroll;
+
+
+  }
+
+
+  .dropdown-menu>li:hover>.submenu {
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .about .bg-white {
+    padding: 1rem;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .about h5 {
+    Font-size: 32px;
+    Font-weight: 500;
+    line-height: 38.4px;
+    color: rgb(30, 30, 30);
+  }
+
+  .card-icon {
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    border-radius: 50%;
+    line-height: 1.55;
+    box-shadow: 0 0 0 10px #0078ff;
+    transition: all 1s ease;
+  }
+
+  .card-icon:hover {
+    background-color: #0078ff;
+    color: #fff;
+    box-shadow: 0 0 0 3px #cde1f8;
+
+  }
+
+  .SERVICES .inner {
+    background-color: #fff;
+    padding: .4rem 0;
+    margin-right: 1px;
+    border-radius: 1rem;
+    margin-bottom: 2.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+  .card-body p {
+    color: #4e4e4e;
+  }
+
+  .numbers {
+    background-image: linear-gradient(rgba(0, 120, 255, 0.7),
+        rgba(0, 120, 255, 0.7)), url(../img/counters-bg.jpg);
+    padding: 8rem 0;
+    color: #ffff;
+  }
+
+  .numbers .card-icon {
+    font-size: 32px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 0 10px #cde1f8;
+  }
+
+  .numbers .card-body p {
+    font-size: 2rem;
+    color: #fff;
+  }
+
+  .portofolio .card-block {
+    box-shadow: 0 1px 38px rgba(0, 0, 0, 0.15), 0 5px 12px rgba(0, 0, 0, 0.25);
+  }
+
+  .prtofolio-img {
+    overflow: hidden;
+  }
+
+  .prtofolio-img img {
+    transition: transform 1s ease-in-out;
+  }
+
+  .prtofolio-img:hover img {
+    transform: scale(1.3);
+  }
+
+  .portofolio h2 {
+    font-size: 1.2rem;
+    color: #1e1e1e;
+  }
+
+  .portofolio span {
+    font-size: 0.8rem;
+  }
+
+  .portofolio .span-1 {
+    color: #0078ff;
+  }
+
+  .portofolio .span-2 {
+    color: #4e4e4e;
+  }
+
+  
+  .portofolio .row {
+    margin-bottom:20px;
+  }
+
+  .icon-plus {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-right: 30px;
+  }
+
+  .parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 3px solid #0078ff;
+  }
+
+  .portofolio i {
+    text-align: center;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: #0078ff;
+  }
+
+  .carsoul p {
+  
+    padding: 0;
+}
+
+  .small-div .h3-card {
+    background-color: #0078ff;
+    border-radius: 4px;
+    top: 95%;
+    left: 40%
+  }
+
+  .small-div h3 {
+    padding: 10px 15px 2px;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+
+    letter-spacing: 0.1px;
+
+  }
+
+  .blog .card-body h5 {
+    font-size: 1.3rem;
+    margin-top: 0.6rem;
+  }
+
+  .img-footer img {
+    width: 32px;
+    height: 32px;
+    margin-right: 4px;
+  }
+
+  .card-footer .time {
+    color: #4e4e4e;
+    display: inline-block;
+  }
+
+  
+  .txt-left {
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  .txt-left::after {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    content: "";
+    width: 80px;
+    background-color: #0062d3;
+    height: 3px;
+  }
+
+  .button-rouded {
+    display: inline;
+    margin-top: 30px;
+    border: 0;
+    background-color: #0078ff;
+    padding: 0.5rem 1.5rem;
+    color: #fff;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+}
+
+/*------------------------*/
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .overlay h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 600;
+  }
+
+  .overlay span::after {
+
+    font-size: 2.5rem;
+
+  }
+
+  .navbar .navbar-nav .nav-link {
+    padding: 4px 20px;
+    font-size: 15px;
+    color: #4e4e4e;
+  }
+
+  .navbar .navbar-nav .nav-link:hover,
+  .navbar .navbar-nav .active {
+    color: blue;
+
+  }
+
+  .navbar .navbar-nav .nav-item {
+    background-color: #fff;
+
+  }
+
+  .dropdown-menu .submenu {
+    overflow: scroll;
+
+
+  }
+
+
+  .dropdown-menu>li:hover>.submenu {
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .about .bg-white {
+    padding: 2rem;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .about h5 {
+    Font-size: 32px;
+    Font-weight: 500;
+    line-height: 38.4px;
+
+    color: rgb(30, 30, 30);
+  }
+
+  .card-icon {
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    border-radius: 50%;
+    line-height: 1.55;
+    box-shadow: 0 0 0 10px #0078ff;
+    transition: all 1s ease;
+  }
+
+  .card-icon:hover {
+    background-color: #0078ff;
+    color: #fff;
+    box-shadow: 0 0 0 3px #cde1f8;
+
+  }
+
+  .SERVICES .inner {
+    background-color: #fff;
+    padding: .4rem 0;
+    margin-right: 1px;
+    border-radius: 1rem;
+    margin-bottom: 2.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+  .card-body p {
+    color: #4e4e4e;
+  }
+
+  .numbers {
+    background-image: linear-gradient(rgba(0, 120, 255, 0.7),
+        rgba(0, 120, 255, 0.7)), url(../img/counters-bg.jpg);
+    padding: 8rem 0;
+    color: #ffff;
+  }
+
+  .numbers .card-icon {
+    font-size: 32px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 0 10px #cde1f8;
+  }
+
+  .numbers .card-body p {
+    font-size: 2rem;
+    color: #fff;
+  }
+
+  .portofolio .card-block {
+    box-shadow: 0 1px 38px rgba(0, 0, 0, 0.15), 0 5px 12px rgba(0, 0, 0, 0.25);
+  }
+
+  .prtofolio-img {
+    overflow: hidden;
+  }
+
+  .prtofolio-img img {
+    transition: transform 1s ease-in-out;
+  }
+
+  .prtofolio-img:hover img {
+    transform: scale(1.3);
+  }
+
+  .portofolio h2 {
+    font-size: 1.2rem;
+    color: #1e1e1e;
+  }
+
+  .portofolio span {
+    font-size: 0.8rem;
+  }
+
+  .portofolio .span-1 {
+    color: #0078ff;
+  }
+
+  .portofolio .span-2 {
+    color: #4e4e4e;
+  }
+
+  .icon-plus {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-right: 30px;
+  }
+
+  .parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 3px solid #0078ff;
+  }
+
+  .portofolio i {
+    text-align: center;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: #0078ff;
+  }
+
+  .carsoul p {
+  
+    padding: 0;
+}
+
+  .small-div .h3-card {
+    background-color: #0078ff;
+    border-radius: 4px;
+    top: 89%;
+    left: 30%;
+
+
+  }
+
+  .small-div h3 {
+    padding: 10px 15px 2px;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+
+    letter-spacing: 0.1px;
+
+  }
+
+  .blog .card-body h5 {
+    font-size: 1.3rem;
+    margin-top: 0.6rem;
+  }
+
+  .img-footer img {
+    width: 32px;
+    height: 32px;
+    margin-right: 4px;
+  }
+
+  .card-footer .time {
+    color: #4e4e4e;
+  }
+
+
+  .txt-left {
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  .txt-left::after {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    content: "";
+    width: 80px;
+    background-color: #0062d3;
+    height: 3px;
+  }
+
+  .button-rouded {
+    display: inline;
+    margin-top: 30px;
+    border: 0;
+    background-color: #0078ff;
+    padding: 0.5rem 1.5rem;
+    color: #fff;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+
+}
